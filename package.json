@@ -1,0 +1,26 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "a website helps you find friends online",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehyar500/FriendFinder.git"
+  },
+  "author": "Mehyar Swelim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehyar500/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/mehyar500/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
