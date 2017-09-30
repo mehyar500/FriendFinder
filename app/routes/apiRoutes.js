@@ -4,7 +4,7 @@
 // These data sources hold arrays of information on friends list
 // ===============================================================================
 
-var friendsArray = require("./data/friends");
+var friendsArray = require("../data/friends");
 
 //Routing
 module.exports = function(app) {

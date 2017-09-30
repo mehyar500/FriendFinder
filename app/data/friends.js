@@ -1,5 +1,5 @@
 //Data to be exported, an array that holds friends list
-var freindsData = [
+var friendsArray = [
 	{
 
 	  "name":"Ahmed",
@@ -20,4 +20,4 @@ var freindsData = [
 ];
 
 //exporting the array
-module.exports = freindsData;
+module.exports = friendsArray;

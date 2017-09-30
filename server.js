@@ -15,9 +15,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-// ROUTER
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+// ROUTERs
+require("./app/routes/apiRoutes")(app);
+require("./app/routes/htmlRoutes")(app);
 
 // LISTENER
 app.listen(PORT, function() {
